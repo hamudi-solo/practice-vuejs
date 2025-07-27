@@ -1,6 +1,7 @@
 <template>
     <div class="ml-4 flex justify-center items-center">
-        <button class=" bg-green-500 hover:bg-green-700  text-center px-4 py-1 rounded-md shadow-md ">submit</button>
+        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:scale-105 transition-transform duration-300"
+>submit</button>
 
     </div>
 </template>
