@@ -2,6 +2,7 @@
 <template>
 <HomePage/>
 <formPage/>
+<applyPage/>
 </template>
 
 <script>
