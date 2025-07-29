@@ -2,13 +2,25 @@
 <h1>
     this is HomePage
 </h1>
-<p>
-    welcome to this page bro
+<p :class="CustomClass"> {{ content }}
 </p>
+
+<slot></slot>
 
 </template>
 <script>
 export default {
      name: 'applyPage',
+props:{
+    CustomClass :{
+        type: String,
+        default: ''
+
+    },
+    content:{
+        type: String,
+        default:''
+    }
+}
 }
 </script>
