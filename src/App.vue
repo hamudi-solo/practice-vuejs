@@ -12,14 +12,14 @@
 import HomePage from './components/HomePage.vue';
 import formPage from './components/formPage.vue';
 import applyPage from './components/applyPage.vue';
+import contactPage from './components/contactPage.vue';
 import ContactPage from './components/contactPage.vue';
 export default {
   components:{HomePage,
     formPage,
     applyPage,
-    ContactPage
+    ContactPage,
   },
-  
 methods:{
 buttonClick (){
   alert ('Yes we can')

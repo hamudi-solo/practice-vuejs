@@ -8,7 +8,6 @@
 <slot></slot>
 <script>
 export default{
-    name:'contactPage',
     props:{
         custom2class:{
             type:String,
